@@ -18,7 +18,7 @@ A RESTful CRUD Web API built with **PHP** and **MySQL**.
 
 ### 2. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/WebAPI_PHP.git
+git clone https://github.com/pizzaisgood0011/products_webapi.git
 ```
 Place the folder inside:
 ```
