@@ -34,7 +34,7 @@ C:\laragon\www\WebAPI_PHP\
   - **Terminal** => `mysql -u root -p webapi_db < script.sql`
 
 ### 4. Configure database connection
-Create `config/connection_db.php` (excluded from repo for security):
+Create `config/connection_db.php` (excluded from repo for security) or rename `connection_db.example.php to connection_db.php`
 ```php
 <?php
 $hostname = "localhost";
