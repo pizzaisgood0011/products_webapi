@@ -22,7 +22,7 @@ git clone https://github.com/YOUR_USERNAME/WebAPI_PHP.git
 ```
 Place the folder inside:
 ```
-C:\laragon\www\WebAPI_PHP\
+C:\laragon\www\
 ```
 
 ### 3. Setup the database
