@@ -64,36 +64,3 @@ CREATE TABLE reviews (
 	ON DELETE CASCADE
     ON UPDATE CASCADE
 );
-
--- insert data
--- insert categories data
-INSERT INTO categories (category_name , slug)
-VALUES ('Laptops', 'laptops'), ('Smartphones', 'smartphones');
-
--- insert products data
-INSERT INTO products(
-	product_name, product_title, SKU, brand, description, tags,price,
-	discount_percentage, stock, quantity, rating, category_id) 
-VALUES ('Hacking Laptop', 'Hacking Laptop Beginner',
-		'HKI-LP-001', 'Bodaro', 'Best laptop all the time', 'laptop, technology',
-		1500.00, 5.10, 20, 5, 4.50, 1);
-UPDATE products 
-SET thumbnail = 'https://images.unsplash.com/photo-1605134513573-384dcf99a44c?q=80&w=1170&auto=format&fit=crop'
-WHERE product_id = 1;
-
--- insert product image data
-INSERT INTO product_images (image_url, is_thumbnail, product_id)
-VALUES (
-	'https://images.unsplash.com/photo-1605134513573-384dcf99a44c?q=80&w=1170&auto=format&fit=crop',
-	TRUE, 1);
-
-
--- insert reviews data
-INSERT INTO reviews(rating, comment, reviewer_name , reviewer_email, product_id)
-VALUES (4, 'Recommend!', 'Sang Chhenghok', 'hokhok@gmail.com', 1),
-		(5, 'Best Performance', 'Seb Kimtheng', 'sentheng@gmail.com', 1);
-
-SELECT * FROM categories;
-SELECT * FROM products;
-SELECT * FROM product_images;
-SELECT * FROM reviews;
