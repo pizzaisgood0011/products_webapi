@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS webfinal_db;
-USE webfinal_db;
+CREATE DATABASE IF NOT EXISTS webapi_db;
+USE webapi_db;
 
 -- create tables
 CREATE TABLE IF NOT EXISTS categories(
