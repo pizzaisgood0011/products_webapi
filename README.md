@@ -192,10 +192,5 @@ categories
 
 ---
 
-## 📮 Postman Collection
-Import `WebAPI_Final.postman_collection.json` into Postman to get all endpoints ready to test.
-
----
-
 ## 👤 Author
 **Bodaro** — MIS Students
