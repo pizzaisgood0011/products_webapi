@@ -151,7 +151,7 @@ class Product{
         );
 
         $stmt->bind_param(
-            "sssssssdiiidsi i",
+            "ssssssddiidssii",
             $data['product_name'], $data['product_title'], $data['SKU'], $data['brand'],
             $data['description'], $data['tags'], $data['price'], $data['discount_percentage'],
             $data['stock'], $data['quantity'], $data['rating'], $data['availability_status'],
